@@ -16,5 +16,10 @@
 4. Reducers
   1. Reducers specify how the application's state changes in response.
   2. Reducer is a pure function that takes the previous state and an action, and returns the next state.
-
-
+  
+5. Store
+  1. Holds application state.
+  2. Allows access to state via `getState()`.
+  3. Allows state to be updated via `dispatch(action)`.
+  4. Registers listeners via `subscribe(listener)`.
+  5. Handlers unregistering of listeners via the function returned by `subscribe(listener)`.
