@@ -41,3 +41,9 @@
     ~~~
     3. The root reducer may combine the output of multiple reducers into a single state tree.
     4. The Redux store saves the complete state tree returned by the root reducer.
+
+7. Async Actions
+  1. Actions
+    1. An action informing the reducers that the request begin.
+    2. An action informing the reducers that the request finished successfully.
+    3. An action informing the reducers that the request failed.
